@@ -26,7 +26,24 @@ Navigation.startSingleScreenApp({
 screen: {
 	screen: '18plus.Home',
 	title: '18 PLUS',
-	navigatorStyle
+	subtitle: 'คลิปโป๊ มากมาย',
+	navigatorStyle: {
+		navBarTransparent: true,
+		drawUnderNavBar: true,
+		navBarTranslucent: true,
+		statusBarHidden: true,
+		navBarTextColor: 'white',
+		navBarButtonColor: 'white',
+		navBarSubtitleColor: '#D50000',
+		navBarLeftButtonColor: 'white'
+	},
+	navigatorButtons: {
+		leftButtons: [
+			{
+				id: 'sideMenu',
+			}
+		]
+	}
 },
 drawer: {
 	left: {
